@@ -8,6 +8,12 @@ class SftPsampleApplicationTests {
 
 	@Test
 	void contextLoads() {
+		try {
+			
+			SftPsampleApplication.main(null);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 }
